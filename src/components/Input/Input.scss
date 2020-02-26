@@ -1,0 +1,26 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+
+  .input-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .input {
+    height: 45px;
+    margin: 10px;
+    width: 300px;
+    border: 2px #7ee500 solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  #ejercicio {
+    width: 300px;
+  }
+}
